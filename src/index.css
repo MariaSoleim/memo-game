@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+		align-items: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+}
+
+.catPicture {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+		border: 1px solid black;
+}
+
+h1 {
+	align-self: center;
+	font-size: 3em;
+	color: forestgreen;
+}
